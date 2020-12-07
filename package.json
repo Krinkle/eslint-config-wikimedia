@@ -25,7 +25,7 @@
 	},
 	"files": [
 		"common.json",
-		"client.js",
+		"client.json",
 		"node.json",
 		"jquery.json",
 		"jsdoc.json",
@@ -37,7 +37,7 @@
 		"server.json",
 		"vue-common.json",
 		"vue-es5.js",
-		"vue-es6.js",
+		"vue-es6.json",
 		"vue-wrappers.js",
 		"language"
 	],
@@ -50,7 +50,7 @@
 	"license": "MIT",
 	"dependencies": {
 		"eslint": "^7.14.0",
-		"eslint-plugin-es": "^4.1.0",
+		"eslint-plugin-es": "github:mysticatea/eslint-plugin-es#master",
 		"eslint-plugin-jsdoc": "^30.7.8",
 		"eslint-plugin-json": "^2.1.2",
 		"eslint-plugin-mediawiki": "^0.2.6",

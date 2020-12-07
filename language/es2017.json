@@ -1,7 +1,9 @@
 {
+	"plugins": [ "es" ],
 	"extends": [
 		"./rules-es2017",
-		"./not-es2017"
+		"plugin:es/restrict-to-es2017",
+		"plugin:es/no-new-in-esnext"
 	],
 	"parserOptions": {
 		"ecmaVersion": 2017
