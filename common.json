@@ -5,6 +5,7 @@
 	],
 	"env": {},
 	"globals": {},
+	"settings": { "es": { "aggressive": true } },
 	"reportUnusedDisableDirectives": true,
 	"overrides": [ {
 		"files": [ "**/*.json", "**/*.jsonc" ],

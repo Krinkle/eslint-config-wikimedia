@@ -1,7 +1,9 @@
 {
+	"plugins": [ "es" ],
 	"extends": [
 		"./rules-es6",
-		"./not-es6"
+		"plugin:es/restrict-to-es2015",
+		"plugin:es/no-new-in-esnext"
 	],
 	"parserOptions": {
 		"ecmaVersion": 6

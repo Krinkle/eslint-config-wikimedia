@@ -1,0 +1,9 @@
+{
+	"overrides": [ {
+		"files": [ "**/*.vue" ],
+		"extends": [
+			"./vue-common",
+			"./language/es6"
+		]
+	} ]
+}

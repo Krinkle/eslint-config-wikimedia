@@ -43,11 +43,11 @@
 	// TODO: eslint-disable-next-line node/process-exit-as-throw
 
 	// not-es2018
-	// eslint-disable-next-line no-restricted-properties
+	// eslint-disable-next-line es/no-string-prototype-trimstart-trimend
 	''.trimEnd();
 
 	// not-es2019
-	// eslint-disable-next-line no-restricted-properties
+	// eslint-disable-next-line es/no-string-prototype-matchall
 	''.matchAll( /foo/ );
 
 	// not-es2019
@@ -63,7 +63,7 @@
 	globalThis === c;
 
 	// not-es2020
-	// eslint-disable-next-line no-restricted-properties
+	// eslint-disable-next-line es/no-string-prototype-replaceall
 	'abc'.replaceAll( 'a', 'x' );
 	// eslint-disable-next-line es/no-promise-any
 	Promise.any( [] );
